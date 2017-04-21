@@ -156,6 +156,7 @@ li i{
 	background: url(photo/go.png) no-repeat right;
 	background-size: 1.2rem;
 	font-size: 1.4rem;
+	cursor: pointer;
 }
 
 .time2{
@@ -166,6 +167,13 @@ li i{
 
 }
 
+.date1{
+	display: inline-block;
+	width: 50%;
+	text-overflow: ellipsis;
+	overflow:hidden; 
+	white-space: nowrap;
+}
 footer{
 	position: fixed;
 	width: 100%;
